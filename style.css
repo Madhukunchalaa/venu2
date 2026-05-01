@@ -46,7 +46,7 @@ h1, h2, h3, h4, h5, .serif {
 }
 
 section {
-    padding: 160px 0;
+    padding: 100px 0;
     position: relative;
     overflow: hidden;
 }
@@ -422,7 +422,7 @@ section {
 
 /* Footer */
 footer {
-    padding: 160px 0 80px;
+    padding: 100px 0 60px;
     background: var(--bg-dark);
     color: var(--text-light);
 }

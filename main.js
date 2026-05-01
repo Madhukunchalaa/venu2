@@ -17,15 +17,15 @@ ScrollTrigger.create({
 // Smooth reveals for sections
 const sections = document.querySelectorAll('section');
 sections.forEach(section => {
-    gsap.from(section.querySelectorAll('.hero-title, h2, .hero-label, .hero-description, p, .btn-premium, .shift-card, .work-card'), {
-        y: 60,
+    gsap.from(section.querySelectorAll('.hero-title, h2, .hero-label, .hero-description, p, .btn-premium, .shift-card, .work-card, .stat-box'), {
+        y: 30,
         opacity: 0,
-        duration: 1.2,
-        stagger: 0.2,
-        ease: "power4.out",
+        duration: 1,
+        stagger: 0.1,
+        ease: "power3.out",
         scrollTrigger: {
             trigger: section,
-            start: "top 80%",
+            start: "top 90%",
             toggleActions: "play none none none"
         }
     });
